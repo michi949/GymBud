@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Execution" representedClassName="Execution" syncable="YES" codeGenerationType="category">
+        <attribute name="count" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="distance" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="inSession" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Session" inverseName="userHasDone" inverseEntity="Session"/>
+        <relationship name="ofExercise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Exercise" inverseName="ofExecution" inverseEntity="Exercise"/>
+    </entity>
+    <entity name="Exercise" representedClassName="Exercise" syncable="YES" codeGenerationType="category">
+        <attribute name="descriptionText" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="ofExecution" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Execution" inverseName="ofExercise" inverseEntity="Execution"/>
+    </entity>
+    <entity name="Session" representedClassName="Session" syncable="YES" codeGenerationType="category">
+        <attribute name="burn" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="gym" optional="YES" attributeType="String"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="userHasDone" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Execution" inverseName="inSession" inverseEntity="Execution"/>
+    </entity>
+    <elements>
+        <element name="Exercise" positionX="364.8046875" positionY="23.25" width="128" height="103"/>
+        <element name="Session" positionX="-54" positionY="18" width="128" height="118"/>
+        <element name="Execution" positionX="121.9296875" positionY="-186.6796875" width="128" height="103"/>
+    </elements>
+</model>
