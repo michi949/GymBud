@@ -2,8 +2,8 @@
 //  Exercise+CoreDataClass.swift
 //  GymBud
 //
-//  Created by itsedev on 22.01.20.
-//  Copyright © 2020 Fh Ooe. All rights reserved.
+//  Created by Reder on 22.01.20.
+//  Copyright © 2020 Reder. All rights reserved.
 //
 //
 

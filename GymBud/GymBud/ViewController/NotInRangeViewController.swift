@@ -2,8 +2,8 @@
 //  NotInRangeViewController.swift
 //  GymBud
 //
-//  Created by itsedev on 20.01.20.
-//  Copyright © 2020 Fh Ooe. All rights reserved.
+//  Created by Reder on 20.01.20.
+//  Copyright © 2020 Reder. All rights reserved.
 //
 
 import UIKit

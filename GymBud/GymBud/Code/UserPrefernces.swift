@@ -2,8 +2,8 @@
 //  UserPrefernces.swift
 //  GymBud
 //
-//  Created by itsedev on 20.01.20.
-//  Copyright © 2020 Fh Ooe. All rights reserved.
+//  Created by Reder on 20.01.20.
+//  Copyright © 2020 Reder. All rights reserved.
 //
 
 import Foundation
@@ -16,7 +16,10 @@ class UserPrefernces {
     static let AGE = "AGE"
     static let WEIGHT = "WEIGHT"
     static let HEIGHT = "HEIGHT"
+    static let LATOFGYM = "LATOFGYM"
+    static let LONGOFGYM = "LONGOFGYM"
     static let ISLOGGEDIN = "ISLOGGEDIN"
+    static let GYMNAME = "GYMNAME"
     
     //SetUps
     static let EXERCISES = "EXERCISES"
@@ -53,6 +56,12 @@ class UserPrefernces {
         defaults.set(hasLoaded, forKey: EXERCISES)
     }
     
+    public static func setPositionOfGym(lat: Double, long: Double, gymName: String){
+        defaults.set(lat, forKey: LATOFGYM)
+        defaults.set(long, forKey: LONGOFGYM)
+        defaults.set(gymName, forKey: GYMNAME)
+    }
+    
     // MARK: Getter
     public static func getUser() -> (user: String, age: Int, weight: Double, height: Double) {
         let user = defaults.string(forKey: NAME) ?? ""
@@ -86,6 +95,13 @@ class UserPrefernces {
     
     public static func hasLoadedExercises() -> Bool {
         return defaults.bool(forKey: EXERCISES)
+    }
+    
+    public static func getPositionOfGym() -> (lat: Double, long: Double, gymName: String){
+        let long = defaults.double(forKey: LONGOFGYM)
+        let lat = defaults.double(forKey: LATOFGYM)
+        let gymName = defaults.string(forKey: GYMNAME)
+        return (lat: lat, long: long, gymName: gymName ?? "")
     }
 }
 

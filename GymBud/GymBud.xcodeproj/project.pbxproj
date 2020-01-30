@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		398AA4B8087452E2225E808D /* Pods_GymBud_GymBudUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA84FC31E4E28D1CA39BB3A8 /* Pods_GymBud_GymBudUITests.framework */; };
+		5D214BF323DDE407005EFAD8 /* 4790-321go.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D214BF223DDE407005EFAD8 /* 4790-321go.json */; };
+		5D214BF523DDE4CF005EFAD8 /* 45-countdown.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D214BF423DDE4CF005EFAD8 /* 45-countdown.json */; };
+		5D214BF723DDE80E005EFAD8 /* HeartBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D214BF623DDE80E005EFAD8 /* HeartBeat.swift */; };
+		5D214BF923DDECE5005EFAD8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D214BF823DDECE5005EFAD8 /* Extensions.swift */; };
+		5D214BFB23DDEDA9005EFAD8 /* HealthUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D214BFA23DDEDA9005EFAD8 /* HealthUpdater.swift */; };
+		5D3DA9E423D84F8600EC72E9 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3DA9E323D84F8500EC72E9 /* ExerciseViewController.swift */; };
+		5D40B75123DB90400089E02E /* 4565-heartbeat-medical.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D40B74C23DB90400089E02E /* 4565-heartbeat-medical.json */; };
+		5D40B75323DB9A570089E02E /* CountDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D40B75223DB9A570089E02E /* CountDownViewController.swift */; };
+		5D40B75723DBA1DB0089E02E /* 12619-count-3-at-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D40B75623DBA1DB0089E02E /* 12619-count-3-at-1.json */; };
+		5D40B75A23DBA9740089E02E /* StepCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D40B75923DBA9740089E02E /* StepCounter.swift */; };
+		5D40B75C23DBA99C0089E02E /* Alcometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D40B75B23DBA99C0089E02E /* Alcometer.swift */; };
 		5D4348B123D65DC50017CFB9 /* NotInRangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4348B023D65DC50017CFB9 /* NotInRangeViewController.swift */; };
 		5D4348B823D785BF0017CFB9 /* 10183-location-pin.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D4348B723D785BF0017CFB9 /* 10183-location-pin.json */; };
 		5D4348BA23D788340017CFB9 /* ModalHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4348B923D788340017CFB9 /* ModalHandler.swift */; };
@@ -34,9 +45,21 @@
 		5DF5C73C23D7C4DA00D50E97 /* ExerciseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5C73A23D7C4DA00D50E97 /* ExerciseTableViewCell.xib */; };
 		D4BBF89048175F8F64A08017 /* Pods_GymBudTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CDE0EB4B43A763A6CF7A3E /* Pods_GymBudTests.framework */; };
 		D6A926BAEF33314FCC788F3C /* Pods_GymBud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7A912FED675650DC61004E /* Pods_GymBud.framework */; };
+		EA6E48BA23DF27C500AE6678 /* CaloriesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6E48B923DF27C500AE6678 /* CaloriesCalculator.swift */; };
+		EA6E48BD23DF40B700AE6678 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6E48BC23DF40B700AE6678 /* HistoryViewController.swift */; };
+		EA6E48C523DF6CAF00AE6678 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6E48C423DF6CAF00AE6678 /* Workout.swift */; };
+		EA6E48CF23E0409900AE6678 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6E48CD23E0409800AE6678 /* HistoryTableViewCell.swift */; };
+		EA6E48D023E0409900AE6678 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6E48CE23E0409900AE6678 /* HistoryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5D214BF023DDE3FF005EFAD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D52CD2923D64D3B007476DC /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D797E9A5C5782CE845840781FA1CC81;
+			remoteInfo = Alamofire;
+		};
 		5D52CD0A23D64889007476DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5D52CCE823D64888007476DC /* Project object */;
@@ -84,6 +107,17 @@
 /* Begin PBXFileReference section */
 		326C654477AE84499BDDB2CD /* Pods-GymBudTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymBudTests.debug.xcconfig"; path = "Target Support Files/Pods-GymBudTests/Pods-GymBudTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D7A912FED675650DC61004E /* Pods_GymBud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymBud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D214BF223DDE407005EFAD8 /* 4790-321go.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4790-321go.json"; sourceTree = "<group>"; };
+		5D214BF423DDE4CF005EFAD8 /* 45-countdown.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "45-countdown.json"; sourceTree = "<group>"; };
+		5D214BF623DDE80E005EFAD8 /* HeartBeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartBeat.swift; sourceTree = "<group>"; };
+		5D214BF823DDECE5005EFAD8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5D214BFA23DDEDA9005EFAD8 /* HealthUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthUpdater.swift; sourceTree = "<group>"; };
+		5D3DA9E323D84F8500EC72E9 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		5D40B74C23DB90400089E02E /* 4565-heartbeat-medical.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4565-heartbeat-medical.json"; sourceTree = "<group>"; };
+		5D40B75223DB9A570089E02E /* CountDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownViewController.swift; sourceTree = "<group>"; };
+		5D40B75623DBA1DB0089E02E /* 12619-count-3-at-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "12619-count-3-at-1.json"; sourceTree = "<group>"; };
+		5D40B75923DBA9740089E02E /* StepCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounter.swift; sourceTree = "<group>"; };
+		5D40B75B23DBA99C0089E02E /* Alcometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alcometer.swift; sourceTree = "<group>"; };
 		5D4348B023D65DC50017CFB9 /* NotInRangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotInRangeViewController.swift; path = GymBud/ViewController/NotInRangeViewController.swift; sourceTree = SOURCE_ROOT; };
 		5D4348B723D785BF0017CFB9 /* 10183-location-pin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "10183-location-pin.json"; sourceTree = "<group>"; };
 		5D4348B923D788340017CFB9 /* ModalHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalHandler.swift; sourceTree = "<group>"; };
@@ -121,6 +155,11 @@
 		CA84FC31E4E28D1CA39BB3A8 /* Pods_GymBud_GymBudUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymBud_GymBudUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE431EC47A6681176C08075A /* Pods-GymBud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymBud.debug.xcconfig"; path = "Target Support Files/Pods-GymBud/Pods-GymBud.debug.xcconfig"; sourceTree = "<group>"; };
 		E9CDE0EB4B43A763A6CF7A3E /* Pods_GymBudTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymBudTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6E48B923DF27C500AE6678 /* CaloriesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesCalculator.swift; sourceTree = "<group>"; };
+		EA6E48BC23DF40B700AE6678 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		EA6E48C423DF6CAF00AE6678 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		EA6E48CD23E0409800AE6678 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		EA6E48CE23E0409900AE6678 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
 		FB7AD80C5763083B333728ED /* Pods-GymBud-GymBudUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymBud-GymBudUITests.debug.xcconfig"; path = "Target Support Files/Pods-GymBud-GymBudUITests/Pods-GymBud-GymBudUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,10 +204,25 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5D40B75823DBA95F0089E02E /* ExercisesHelper */ = {
+			isa = PBXGroup;
+			children = (
+				5D40B75923DBA9740089E02E /* StepCounter.swift */,
+				5D40B75B23DBA99C0089E02E /* Alcometer.swift */,
+				5D214BF623DDE80E005EFAD8 /* HeartBeat.swift */,
+				EA6E48B923DF27C500AE6678 /* CaloriesCalculator.swift */,
+			);
+			path = ExercisesHelper;
+			sourceTree = "<group>";
+		};
 		5D4348B623D785780017CFB9 /* LottieFiles */ = {
 			isa = PBXGroup;
 			children = (
+				5D40B74C23DB90400089E02E /* 4565-heartbeat-medical.json */,
+				5D214BF223DDE407005EFAD8 /* 4790-321go.json */,
 				5D4348BD23D78CDA0017CFB9 /* 1342-location.json */,
+				5D214BF423DDE4CF005EFAD8 /* 45-countdown.json */,
+				5D40B75623DBA1DB0089E02E /* 12619-count-3-at-1.json */,
 				5D4348B723D785BF0017CFB9 /* 10183-location-pin.json */,
 			);
 			path = LottieFiles;
@@ -238,6 +292,9 @@
 				5D4348B023D65DC50017CFB9 /* NotInRangeViewController.swift */,
 				5D52CCF723D64888007476DC /* ViewController.swift */,
 				5D4348C123D79DC70017CFB9 /* UserSettingsViewController.swift */,
+				5D3DA9E323D84F8500EC72E9 /* ExerciseViewController.swift */,
+				5D40B75223DB9A570089E02E /* CountDownViewController.swift */,
+				EA6E48BC23DF40B700AE6678 /* HistoryViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -245,6 +302,7 @@
 		5D52CD2A23D64D3B007476DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				5D214BF123DDE3FF005EFAD8 /* Alamofire.framework */,
 				5D52CD3123D64D3B007476DC /* Lottie.framework */,
 				5D52CD3323D64D3B007476DC /* Pods_GymBud.framework */,
 				5D52CD3523D64D3B007476DC /* Pods_GymBud_GymBudUITests.framework */,
@@ -282,9 +340,11 @@
 		5D52CD3B23D64E5C007476DC /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				5D40B75823DBA95F0089E02E /* ExercisesHelper */,
 				5D52CD3C23D64E91007476DC /* UserPrefernces.swift */,
 				5D4348BB23D78A820017CFB9 /* LocationManager.swift */,
 				5DF5C72123D7B98600D50E97 /* CoreDataManager.swift */,
+				5D214BF823DDECE5005EFAD8 /* Extensions.swift */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -293,6 +353,7 @@
 			isa = PBXGroup;
 			children = (
 				5D4348B923D788340017CFB9 /* ModalHandler.swift */,
+				5D214BFA23DDEDA9005EFAD8 /* HealthUpdater.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -304,6 +365,7 @@
 				5DF5C72A23D7BC8600D50E97 /* Exercise+CoreDataClass.swift */,
 				5DF5C72C23D7BC8600D50E97 /* Session+CoreDataClass.swift */,
 				5D52CCFC23D64888007476DC /* GymBud.xcdatamodeld */,
+				EA6E48C423DF6CAF00AE6678 /* Workout.swift */,
 			);
 			path = DataClasses;
 			sourceTree = "<group>";
@@ -315,6 +377,8 @@
 				5DF5C73623D7C05100D50E97 /* TopTableViewCell.xib */,
 				5DF5C73923D7C4DA00D50E97 /* ExerciseTableViewCell.swift */,
 				5DF5C73A23D7C4DA00D50E97 /* ExerciseTableViewCell.xib */,
+				EA6E48CD23E0409800AE6678 /* HistoryTableViewCell.swift */,
+				EA6E48CE23E0409900AE6678 /* HistoryTableViewCell.xib */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -440,6 +504,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		5D214BF123DDE3FF005EFAD8 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 5D214BF023DDE3FF005EFAD8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		5D52CD3123D64D3B007476DC /* Lottie.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -475,12 +546,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D40B75123DB90400089E02E /* 4565-heartbeat-medical.json in Resources */,
 				5D52CD0323D64889007476DC /* LaunchScreen.storyboard in Resources */,
+				5D40B75723DBA1DB0089E02E /* 12619-count-3-at-1.json in Resources */,
 				5D52CD2723D64AE3007476DC /* Assets.xcassets in Resources */,
 				5D4348B823D785BF0017CFB9 /* 10183-location-pin.json in Resources */,
+				5D214BF523DDE4CF005EFAD8 /* 45-countdown.json in Resources */,
 				5D4348BE23D78CDA0017CFB9 /* 1342-location.json in Resources */,
+				5D214BF323DDE407005EFAD8 /* 4790-321go.json in Resources */,
 				5DF5C73C23D7C4DA00D50E97 /* ExerciseTableViewCell.xib in Resources */,
 				5D52CCFB23D64888007476DC /* Main.storyboard in Resources */,
+				EA6E48D023E0409900AE6678 /* HistoryTableViewCell.xib in Resources */,
 				5DF5C73823D7C05100D50E97 /* TopTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -611,18 +687,29 @@
 			files = (
 				5D52CCF823D64888007476DC /* ViewController.swift in Sources */,
 				5D52CCF423D64888007476DC /* AppDelegate.swift in Sources */,
+				EA6E48CF23E0409900AE6678 /* HistoryTableViewCell.swift in Sources */,
 				5D4348BA23D788340017CFB9 /* ModalHandler.swift in Sources */,
 				5D52CD3D23D64E91007476DC /* UserPrefernces.swift in Sources */,
 				5D4348C223D79DC70017CFB9 /* UserSettingsViewController.swift in Sources */,
+				5D40B75C23DBA99C0089E02E /* Alcometer.swift in Sources */,
+				5D40B75323DB9A570089E02E /* CountDownViewController.swift in Sources */,
 				5D4348BC23D78A820017CFB9 /* LocationManager.swift in Sources */,
 				5DF5C73B23D7C4DA00D50E97 /* ExerciseTableViewCell.swift in Sources */,
+				5D40B75A23DBA9740089E02E /* StepCounter.swift in Sources */,
 				5D4348B123D65DC50017CFB9 /* NotInRangeViewController.swift in Sources */,
+				5D214BFB23DDEDA9005EFAD8 /* HealthUpdater.swift in Sources */,
 				5D52CCF623D64888007476DC /* SceneDelegate.swift in Sources */,
 				5DF5C73223D7BC8600D50E97 /* Session+CoreDataClass.swift in Sources */,
+				EA6E48BA23DF27C500AE6678 /* CaloriesCalculator.swift in Sources */,
+				5D214BF923DDECE5005EFAD8 /* Extensions.swift in Sources */,
+				EA6E48BD23DF40B700AE6678 /* HistoryViewController.swift in Sources */,
 				5DF5C73023D7BC8600D50E97 /* Exercise+CoreDataClass.swift in Sources */,
+				5D214BF723DDE80E005EFAD8 /* HeartBeat.swift in Sources */,
 				5DF5C72E23D7BC8600D50E97 /* Execution+CoreDataClass.swift in Sources */,
 				5DF5C72223D7B98600D50E97 /* CoreDataManager.swift in Sources */,
 				5D52CCFE23D64888007476DC /* GymBud.xcdatamodeld in Sources */,
+				5D3DA9E423D84F8600EC72E9 /* ExerciseViewController.swift in Sources */,
+				EA6E48C523DF6CAF00AE6678 /* Workout.swift in Sources */,
 				5DF5C73723D7C05100D50E97 /* TopTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -798,7 +885,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GTVJ652G5;
 				INFOPLIST_FILE = GymBud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -816,7 +905,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GTVJ652G5;
 				INFOPLIST_FILE = GymBud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

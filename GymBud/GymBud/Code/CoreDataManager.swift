@@ -2,8 +2,8 @@
 //  CoreDataManager.swift
 //  GymBud
 //
-//  Created by itsedev on 21.01.20.
-//  Copyright © 2020 Fh Ooe. All rights reserved.
+//  Created by Reder on 21.01.20.
+//  Copyright © 2020 Reder. All rights reserved.
 //
 
 import Foundation
@@ -73,11 +73,12 @@ class CoreDataManager{
     
     func initAllExercises(){
         if !UserPrefernces.hasLoadedExercises() {
-            _ = Exercise(name: "Squats", description: "", image: UIImage(), insertInto: self.getContext(context: .child))
-            _ = Exercise(name: "Treadmile", description: "", image: UIImage(), insertInto: self.getContext(context: .child))
-            _ = Exercise(name: "Stepper", description: "", image: UIImage(), insertInto: self.getContext(context: .child))
-            _ = Exercise(name: "Deadlifts", description: "", image: UIImage(), insertInto: self.getContext(context: .child))
-            _ = Exercise(name: "Six Pack", description: "", image: UIImage(), insertInto: self.getContext(context: .child))
+            _ = Exercise(name: "Squats", description: "A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up.", image: UIImage(named: "squats"), insertInto: self.getContext(context: .parent))
+            _ = Exercise(name: "Treadmill", description: "Improve your strength in running and train your heart. Frequently running is good for you.", image: UIImage(named: "treadmille"), insertInto: self.getContext(context: .parent))
+            _ = Exercise(name: "Stepper", description: "The stepper is good for your ass! Walk a few steps and you will feel it in your ass.", image: UIImage(named: "fitness-women-sports-gym"), insertInto: self.getContext(context: .parent))
+            _ = Exercise(name: "Deadlifts", description: "Deadlifts are a high intensive exercise for all parts of your body.", image: UIImage(named: "dealifts"), insertInto: self.getContext(context: .parent))
+            _ = Exercise(name: "Abs", description: "Abs are mostly attractive to girls so start doing this!", image: UIImage(named: "abs"), insertInto: self.getContext(context: .parent))
+            UserPrefernces.setHasLoadedExercises(hasLoaded: true)
             saveAllContext()
         }
     }
